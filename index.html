@@ -2,25 +2,93 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Google</title>
+        <link rel="shortcut icon" href="images/logo-g.png" style="background-color: #fff">
     </head>
     <body>
         <div class="top">
-            <p>Gmail</p>
-            <p>Images</p>
-            <img href="images/applications.png">
-            <img href="images/connexion_gmail.png">
+            <div id="gmail">
+                <a class="a-1" href="https://mail.google.com/mail/u/0/?tab=wm&ogbl#inbox">Gmail</a>
+            </div>
+            <div id="images">
+                <a class="a-1" href="https://www.google.fr/imghp?hl=fr&tab=wi&ogbl">Images</a>
+            </div>
+            <div id="applications">
+                <a href="https://www.google.fr/intl/fr/about/products?tab=wh" title="Applications Google"><img src="images/applications.png" style="width: 28px"></a>
+            </div>
+            <div id="connexion">
+                <a href="https://accounts.google.com/signin/v2/identifier?hl=fr&passive=true&continue=https%3A%2F%2Fwww.google.com%2F%3Fhl%3Dfr&flowName=GlifWebSignIn&flowEntry=ServiceLogin" title="Applications Google"><button id="button-connexion" style="background-color: #4285f4">Connexion</button></a>
+            </div>   
         </div>
         <div class="center">
-            <div class="center-image"></div>
-            <div class="center-search">
-                <img href="images/search_bar.png">
+            <div id="center-image">
+                <img src="images/google_logo_272x92dp.png" style="height: 92px; width: 272px;">
             </div>
-            <div class="center-link"></div>
+            <div id="center-search-bar">
+                <img src="images/search.png" style="width: 30px" id="center-search-button">
+                <input type="text" name="search" id="input">
+                <img src="images/micro.png" style="width: 24px" id="center-search-button">
+            </div>
+            <div id="center-button">
+                <div>
+                    <button class="center-button-style">Recherche Google</button>
+                </div>
+                <div>
+                    <button class="center-button-style">J'ai de la chance</button>
+                </div>
+            </div>
         </div>
         <div class="bottom">
-            <div class="bottom-country"></div>
-            <div class="bottom-information"></div>
+            <div id="bottom-country">
+                <div id="bottom-text-style-2">France</div>
+            </div>
+            <div id="bottom-information">
+                <div id="bottom-information-left">
+                    <div class="bottom-text-style">
+                        <a class="a-2" href="https://ads.google.com/intl/fr_fr/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2m--ahpm-0000000016-0000000001&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">
+                        Publicité
+                        </a>
+                    </div>
+                    <div class="bottom-text-style">
+                        <a class="a-2" href="https://www.google.fr/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">
+                        Entreprise
+                        </a>
+                    </div>
+                    <div class="bottom-text-style">
+                        <a class="a-2" href="https://about.google/intl/fr_fr/?utm_source=google-FR&utm_medium=referral&utm_campaign=hp-footer&fg=1">
+                        À propos
+                        </a>
+                    </div>
+                    <div class="bottom-text-style">
+                        <a class="a-2" href="https://www.google.com/search/howsearchworks/?fg=1">
+                        Comment fonctionne la recherche Google ?
+                        </a>
+                    </div>    
+                </div>
+                <div id="bottom-information-right">
+                    <div class="bottom-text-style">
+                        <a class="a-2" href="https://support.google.com/websearch/answer/7585859?p=fr_consumer_info&hl=fr&fg=1&visit_id=637049273357793908-2304781534&rd=1">
+                        info consommateurs
+                        </a>
+                    </div>
+                    <div class="bottom-text-style">
+                        <a class="a-2" href="https://policies.google.com/privacy?fg=1">
+                        Confidentialité
+                        </a>
+                    </div>
+                    <div class="bottom-text-style">
+                        <a class="a-2" href="https://policies.google.com/terms?fg=1">
+                        Conditions
+                        </a>
+                    </div>
+                    <div class="bottom-text-style">
+                        <a class="a-2" href="#">
+                        Paramètre
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>
